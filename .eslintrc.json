@@ -3,6 +3,12 @@
   /*
    * Buatlah minimal 5 konfigurasi ESLint untuk opsi RULES.
    * Selanjutnya, install Prettier secara lokal dan buatlah minimal 3 opsi konfigurasi.
-  */
-  "rules": {}
+   */
+  "rules": {
+    "indent": ["error", 2], //mengatur indent yang digunakan sebanyak 2 tab
+    "quotes": "off", // tidak mengharuskan penggunaan tanda kutip 2
+    "linebreak-style": ["error", "window"], //mengharuskan penggunaan linebreak \n
+    "default-case": "error", //harus terdapat default di fungsi switch
+    "react/react-in-jsx-scope": "off" // tidak perlu mengimport react ke dalam file js
+  }
 }
